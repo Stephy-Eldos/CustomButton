@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		A7748BFA280E94310069ED73 /* CustomButton.docc in Sources */ = {isa = PBXBuildFile; fileRef = A7748BF9280E94310069ED73 /* CustomButton.docc */; };
 		A7748BFB280E94310069ED73 /* CustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A7748BF8280E94310069ED73 /* CustomButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7748C02280E956D0069ED73 /* TwoLinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7748C01280E956D0069ED73 /* TwoLinedButton.swift */; };
+		A7748C04280E96320069ED73 /* TwoLinedButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7748C03280E96320069ED73 /* TwoLinedButtonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7748BF5280E94310069ED73 /* CustomButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7748BF8280E94310069ED73 /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
 		A7748BF9280E94310069ED73 /* CustomButton.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CustomButton.docc; sourceTree = "<group>"; };
+		A7748C01280E956D0069ED73 /* TwoLinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinedButton.swift; sourceTree = "<group>"; };
+		A7748C03280E96320069ED73 /* TwoLinedButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinedButtonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				A7748BF8280E94310069ED73 /* CustomButton.h */,
+				A7748C01280E956D0069ED73 /* TwoLinedButton.swift */,
+				A7748C03280E96320069ED73 /* TwoLinedButtonViewModel.swift */,
 				A7748BF9280E94310069ED73 /* CustomButton.docc */,
 			);
 			path = CustomButton;
@@ -133,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7748BFA280E94310069ED73 /* CustomButton.docc in Sources */,
+				A7748C04280E96320069ED73 /* TwoLinedButtonViewModel.swift in Sources */,
+				A7748C02280E956D0069ED73 /* TwoLinedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +279,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -299,6 +311,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
